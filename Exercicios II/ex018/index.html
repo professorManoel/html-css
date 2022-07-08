@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte Externas</title>
+    <style>
+        @font-face {
+            font-family:'fonte1' ;
+            src: url(fonte/Luthon\ Southard\ Script.otf) format('opentype'),
+                 url(fonte/Luthon\ Southard\ Script.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+       @font-face {
+        font-family:'fonte2' ;
+            src: url(fonte1/Black\ Ravens.otf) format('opentype'),
+                 url(fonte1/Black\ Ravens.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+       }
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat
+            - svg
+            
+            */
+        
+
+        body{
+            font-family: 'fonte1';
+
+        }
+
+        h1{
+            font-family: 'fonte1';
+            font-size: 50px;
+        }
+        p{
+            font-family: 'fonte2';
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Manoel Ferreira de Brito</h1>
+    
+    <p>Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Sapiente ut fugit 
+        recusandae quaerat hic, nam magni illum 
+        voluptatem, fugiat voluptas asperiores
+         voluptates doloribus placeat. Error saepe 
+         beatae consequatur molestiae officia?</p>
+</body>
+</html>

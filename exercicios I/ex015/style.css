@@ -1,0 +1,19 @@
+@charset "UTF-8"
+<style>
+        body{
+            background-color: antiquewhite;
+           font-family: cursive;
+           font-size: 20px;
+        }
+        h1{
+            color: darkblue;
+            background-color: aliceblue;
+        }
+        h2{
+            color: darkred;
+            background-color: blueviolet;
+        }
+        p{
+            background-color: chocolate;
+        }
+    </style>
