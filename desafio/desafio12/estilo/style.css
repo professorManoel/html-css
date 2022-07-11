@@ -34,6 +34,8 @@
 html, body{
     min-width: 100vh;
     background-color: darkgrey;
+   
+   
 
 }
 header{
@@ -66,11 +68,12 @@ section{
     padding-left: 30px;
     font-family: var(--fonte1);
     font-size: 2vw;
-   
-    
+}
 
 
 
+section > p{
+    padding: 2em;
 }
 
 section.normal{
@@ -81,12 +84,28 @@ section.normal{
 section.imagem{
     background-color: rgb(100, 96, 96);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.589);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
 
 }
 section.imagem > p{
    display: inline-block;
    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.144);
+    background-color: rgba(2, 2, 2, 0.562);
+    text-shadow: 2px 2px 0px black;
+    
+}
+
+section#img1{
+    background-image: url('../imagens/background001.jpg');
+    
+}
+section#img2{
+    background-image: url('../imagens/background002.jpg');
+    
+    
 }
 
 footer{
